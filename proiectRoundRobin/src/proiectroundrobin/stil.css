@@ -1,0 +1,40 @@
+.root{
+    -fx-background:linear-gradient(to bottom right ,rgb(157,225,213),white);
+    -fx-color:rgb(2,2,2);
+    -fx-text-fill:rgb(255,255,255);
+}
+.button{
+    -fx-cursor:hand;
+    -fx-background-color:rgb(74,221,158);
+    -fx-font-size:25;
+    -fx-pref-width:200;
+    -fx-font-weight:900;
+    -fx-background-radius:1;
+}
+.button:hover{
+    -fx-background-color:rgb(123,238,189);
+    -fx-text-fill:rgb(255,255,255);
+}
+
+.label{
+    -fx-font-size:15;
+    -fx-text-fill: gray;
+    -fx-font-family: "Quicksand";
+    -fx-padding:10;
+    
+}
+
+.text-field {
+    -fx-font-size:15;
+    -fx-background-color: white;
+    -fx-font-family: "Quicksand";
+    -fx-border-color: rgb(74,221,158);
+    -fx-border-width: 0;
+    -fx-border-radius: 0;
+    -fx-text-fill: grey;
+    -fx-padding:10;
+}
+.text-field:focused {
+    -fx-background-color:rgb(74,221,158);
+    -fx-text-fill: white;
+}
